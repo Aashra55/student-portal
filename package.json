@@ -1,16 +1,18 @@
 {
   "name": "student-portal",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A student portal using typescript and node.js",
   "main": "index.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aashra Saleem",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.23"
+    "inquirer": "^9.2.23",
+    "student-portal": "^1.0.2"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
